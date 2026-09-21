@@ -18,7 +18,7 @@ description: 将个人或个体业务的一句话需求整理为可编辑的静�
 ## 路由
 
 1. 先读 [references/interview.md](references/interview.md)，按轮次获得目标、内容、账户与授权。
-2. 内容已足够时读 [references/content.md](references/content.md)，把事实、缺口、示例和不可承诺项写进统一 `site.json`。
+2. 内容已足够时读 [references/content.md](references/content.md)，执行“采集 → 内容 brief → 页面文案 → 用户审核 → 写入 `site.json`”链路；把事实、缺口、示例和不可承诺项写进统一 `site.json`。
 3. 购买/注册或登录需要用户接管时读 [references/domain-and-accounts.md](references/domain-and-accounts.md)。
 4. 静态托管按用户选择只读对应参考：[Vercel](references/vercel.md)、[Cloudflare Workers](references/cloudflare-workers.md)、[Cloudflare Pages](references/cloudflare-pages.md)；需要常驻进程时读 [VPS](references/vps.md)。
 5. 发布前读 [references/acceptance-and-resume.md](references/acceptance-and-resume.md)，逐项记录验收证据、状态和可续接检查点；常见误区查 [GOTCHAS.md](GOTCHAS.md)。
