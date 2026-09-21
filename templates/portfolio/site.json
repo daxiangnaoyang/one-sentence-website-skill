@@ -1,0 +1,43 @@
+{
+  "template": "portfolio",
+  "site": {
+    "title": "周野 / Field Notes",
+    "description": "周野的作品集：品牌系统、数字产品与能被团队继续使用的设计资产。",
+    "url": "https://example.com",
+    "language": "zh-CN",
+    "themeColor": "#c9ff51",
+    "demo": true
+  },
+  "person": {
+    "name": "周野",
+    "eyebrow": "视觉系统 · 数字产品",
+    "role": "设计可以成为团队的共同语言",
+    "bio": "我把策略、界面和交付规范放在一张桌子上，帮助品牌在真实业务里保持一致，也保持生长。",
+    "location": "杭州 / 远程",
+    "email": "work@example.com",
+    "avatar": "",
+    "socials": [
+      { "label": "Are.na", "url": "https://www.are.na/" },
+      { "label": "Dribbble", "url": "https://dribbble.com/" }
+    ]
+  },
+  "links": {
+    "primary": { "label": "联系我", "url": "mailto:work@example.com" },
+    "secondary": { "label": "我的工作框架", "url": "#process" }
+  },
+  "stats": [
+    { "value": "04", "label": "项目类型" },
+    { "value": "32", "label": "交付组件" },
+    { "value": "100%", "label": "可编辑" }
+  ],
+  "projects": [
+    { "category": "Brand / 01", "title": "微光书店", "summary": "从一块招牌开始，建立可以延伸到活动、书单和线上内容的识别系统。", "tags": ["品牌", "空间"], "url": "#contact", "cta": "聊聊类似项目" },
+    { "category": "Product / 02", "title": "拾光日历", "summary": "重新组织复杂的日程信息，让每日计划拥有轻盈的入口。", "tags": ["产品", "交互"], "url": "#contact", "cta": "了解合作方式" },
+    { "category": "Editorial / 03", "title": "城市漫游档案", "summary": "为一组地方故事做一套既能阅读、也能持续更新的数字版式。", "tags": ["编辑", "视觉"], "url": "#contact", "cta": "提出一个题目" }
+  ],
+  "services": [],
+  "steps": [],
+  "posts": [],
+  "availability": { "label": "Project desk", "value": "秋季档期开放咨询" },
+  "notice": "演示内容 · 发布前替换"
+}

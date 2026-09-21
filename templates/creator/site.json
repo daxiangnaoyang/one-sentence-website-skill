@@ -1,0 +1,39 @@
+{
+  "template": "creator",
+  "site": {
+    "title": "慢慢写｜陈木",
+    "description": "陈木的创作主页：写工作、技术与日常生活之间那些值得慢一点想的事。",
+    "url": "https://example.com",
+    "language": "zh-CN",
+    "themeColor": "#9ad7ff",
+    "demo": true
+  },
+  "person": {
+    "name": "陈木",
+    "eyebrow": "写作者 / 播客主理人",
+    "role": "把每天遇见的复杂，写成可以分享的线索",
+    "bio": "这里有工作流笔记、对人的观察和还在长成的播客。欢迎从一篇文章开始认识我。",
+    "location": "广州 · 不定期更新",
+    "email": "hello@example.com",
+    "avatar": "",
+    "socials": [
+      { "label": "播客", "url": "https://podcasts.apple.com/" },
+      { "label": "Newsletter", "url": "mailto:hello@example.com" }
+    ]
+  },
+  "links": {
+    "primary": { "label": "订阅更新（邮件）", "url": "mailto:hello@example.com?subject=订阅慢慢写" },
+    "secondary": { "label": "从精选开始", "url": "#featured" }
+  },
+  "stats": [],
+  "projects": [],
+  "services": [],
+  "steps": [],
+  "posts": [
+    { "date": "2026.09", "category": "工作", "title": "一个人维护网站，先维护什么", "summary": "把域名、内容和更新节奏拆成几件不会互相打架的小事。", "url": "#featured" },
+    { "date": "2026.08", "category": "观察", "title": "当工具开始替你记住上下文", "summary": "记忆并不等于答案；我们仍然需要决定什么值得被留下。", "url": "#featured" },
+    { "date": "2026.07", "category": "播客", "title": "第 18 期：给正在转弯的人留一盏灯", "summary": "一场关于选择、试错和重新开始的慢谈。", "url": "#featured" }
+  ],
+  "availability": { "label": "更新节奏", "value": "每月 2–4 篇，按生活发稿" },
+  "notice": "演示内容 · 发布前替换"
+}

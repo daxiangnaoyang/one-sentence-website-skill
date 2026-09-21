@@ -1,0 +1,13 @@
+{
+  "name": "one-sentence-website",
+  "version": "0.1.0",
+  "private": false,
+  "description": "用一句话启动个人或个体业务静态网站的 Codex Skill 工具包。",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

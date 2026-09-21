@@ -1,0 +1,43 @@
+{
+  "template": "service",
+  "site": {
+    "title": "许知行｜职业教练",
+    "description": "许知行为正在转弯的工作者提供结构化职业对话，把模糊的下一步变成可以尝试的行动。",
+    "url": "https://example.com",
+    "language": "zh-CN",
+    "themeColor": "#f1c6a9",
+    "demo": true
+  },
+  "person": {
+    "name": "许知行",
+    "eyebrow": "职业教练 · 结构化对话",
+    "role": "帮你把下一步说清楚，再走出去",
+    "bio": "适合正在换工作、换方向或重新安排生活重心的人。我们从真实处境开始，不用漂亮口号替代选择。",
+    "location": "北京 / 线上",
+    "email": "hello@example.com",
+    "avatar": "",
+    "socials": [
+      { "label": "播客", "url": "https://podcasts.apple.com/" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ]
+  },
+  "links": {
+    "primary": { "label": "预约一次了解", "url": "mailto:hello@example.com" },
+    "secondary": { "label": "先看合作步骤", "url": "#steps" }
+  },
+  "stats": [],
+  "projects": [],
+  "services": [
+    { "title": "方向梳理", "summary": "把经历、限制与想要的生活放到同一张图上。", "detail": "一次 90 分钟对话" },
+    { "title": "转型陪跑", "summary": "用小实验验证方向，再决定简历和投递怎么动。", "detail": "四周 · 每周一次" },
+    { "title": "管理者复盘", "summary": "为新角色建立自己的判断框架和沟通节奏。", "detail": "按目标定制" }
+  ],
+  "steps": [
+    { "title": "写下此刻的困惑", "detail": "邮件告诉我你希望这次对话结束时更清楚什么。" },
+    { "title": "确认是否适合", "detail": "我会回复合作边界、时长和费用，双方都可以先不决定。" },
+    { "title": "从一个小行动开始", "detail": "每次会谈留下一件可在现实里验证的事。" }
+  ],
+  "posts": [],
+  "availability": { "label": "咨询安排", "value": "收到邮件后 2 个工作日内回复" },
+  "notice": "演示内容 · 发布前替换"
+}

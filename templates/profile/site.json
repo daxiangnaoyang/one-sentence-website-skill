@@ -1,0 +1,42 @@
+{
+  "template": "profile",
+  "site": {
+    "title": "林澈｜独立设计师",
+    "description": "林澈的个人主页：用研究和视觉设计，把复杂的产品问题讲清楚。",
+    "url": "https://example.com",
+    "language": "zh-CN",
+    "themeColor": "#e8b34a",
+    "demo": true
+  },
+  "person": {
+    "name": "林澈",
+    "eyebrow": "独立设计师 · 研究型创作者",
+    "role": "把复杂问题变成清晰体验",
+    "bio": "我与小团队一起做产品定位、信息架构和可验证的原型。喜欢先问清楚问题，再用一页纸让每个人看到同一个方向。",
+    "location": "上海 / 远程",
+    "email": "hello@example.com",
+    "avatar": "",
+    "socials": [
+      { "label": "Behance", "url": "https://www.behance.net/" },
+      { "label": "小红书", "url": "https://www.xiaohongshu.com/" }
+    ]
+  },
+  "links": {
+    "primary": { "label": "发一封邮件", "url": "mailto:hello@example.com" },
+    "secondary": { "label": "看我的方法", "url": "#method" }
+  },
+  "stats": [
+    { "value": "12+", "label": "年设计实践" },
+    { "value": "1 → 1", "label": "从问题到原型" },
+    { "value": "远程", "label": "合作方式" }
+  ],
+  "projects": [
+    { "category": "研究", "title": "把用户声音排成一条路", "summary": "为一个工具型产品整理访谈、任务和决策点，让团队从“感觉”回到证据。", "tags": ["访谈", "信息架构"], "url": "#method", "cta": "查看工作方式" },
+    { "category": "原型", "title": "一页纸的产品地图", "summary": "用低保真原型先验证核心流程，减少在视觉细节上过早消耗。", "tags": ["原型", "工作坊"], "url": "#method", "cta": "了解流程" }
+  ],
+  "services": [],
+  "steps": [],
+  "posts": [],
+  "availability": { "label": "本月状态", "value": "接受 1 个短期项目" },
+  "notice": "演示内容 · 发布前替换"
+}

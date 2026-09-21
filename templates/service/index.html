@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{site.language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{site.themeColor}}">
+  <meta name="description" content="{{site.description}}">
+  <link rel="canonical" href="{{site.url}}">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a href="#top" class="brand"><span class="brand-mark">Ⅲ</span><span>{{person.name}}</span></a>
+    <nav aria-label="主导航"><a href="#offer">服务</a><a href="#steps">怎么开始</a><a href="#contact">联系</a></nav>
+    <span class="availability-top">{{availability}}</span>
+  </header>
+  <main id="top">
+    <section class="service-hero">
+      <div class="hero-stamp">A CLEARER<br>NEXT STEP</div>
+      <div class="hero-copy"><p class="eyebrow">{{person.eyebrow}}</p><h1>{{person.role}}</h1><p class="hero-description">{{person.bio}}</p><div class="hero-actions">{{links.primary}} {{links.secondary}}</div></div>
+      <div class="hero-aside"><span class="aside-number">01</span><p>一次好的对话，不替你做决定。它让你更容易听见自己的判断。</p><span class="aside-line"></span></div>
+    </section>
+
+    <section class="offer-section" id="offer">
+      <div class="section-label"><span>工作内容</span><span>What we can do</span></div>
+      <div class="offer-grid">{{services}}</div>
+    </section>
+
+    <section class="steps-section" id="steps">
+      <div class="steps-heading"><p class="eyebrow">A gentle process</p><h2>不用先变得<br><i>确定。</i></h2></div>
+      <ol class="steps-list">{{steps}}</ol>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-label"><span>04</span><p>如果你想先问一个具体问题，可以从一封很短的邮件开始。</p></div>
+      <div class="contact-main"><p class="eyebrow">Say hello</p><h2>把你的<br><em>下一步</em>寄过来。</h2>{{links.primaryPlain}}<p class="email-note">{{person.email}} · {{person.location}}</p></div>
+    </section>
+  </main>
+  <footer class="footer"><span>© 2026 {{person.name}}</span><span>{{person.socials}}</span><span>{{notice}}</span></footer>
+</body>
+</html>

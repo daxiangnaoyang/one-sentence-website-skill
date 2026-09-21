@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="{{site.language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{site.themeColor}}">
+  <meta name="description" content="{{site.description}}">
+  <link rel="canonical" href="{{site.url}}">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top">WN<span>_</span>26</a>
+    <nav aria-label="主导航"><a href="#work">Selected work</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
+    <span class="header-status">{{availability}}</span>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal"></span>{{person.eyebrow}}</p>
+        <h1>{{person.name}}<br><span>makes<br><i>systems.</i></span></h1>
+        <p class="hero-lead">{{person.bio}}</p>
+        <div class="hero-links">{{links.primary}} {{links.secondary}}</div>
+      </div>
+      <div class="hero-art" aria-label="个人头像与作品集标识">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-avatar">{{person.avatarTag}}</div>
+        <span class="art-label label-a">DESIGN<br>WITH<br>INTENT</span>
+        <span class="art-label label-b">SCROLL<br>TO<br>EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <section class="metric-strip" aria-label="作品集概览">{{stats}}</section>
+
+    <section class="work-section" id="work">
+      <div class="section-top"><p class="eyebrow">Selected work</p><p class="section-count">03 CASES / 2026</p></div>
+      <div class="project-grid">{{projects}}</div>
+    </section>
+
+    <section class="process-section" id="process">
+      <div class="process-intro"><p class="eyebrow">How I work</p><h2>Good work has<br><span>a visible path.</span></h2></div>
+      <div class="process-list"><div><span>01</span><h3>Frame</h3><p>找到真正要被解决的那一个问题。</p></div><div><span>02</span><h3>Shape</h3><p>把方向变成团队可以讨论的原型。</p></div><div><span>03</span><h3>Ship</h3><p>留下能被下一位同事继续使用的系统。</p></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">Have a question?</p><h2>把下一件事<br><span>放到桌面上。</span></h2></div>
+      <div class="contact-side"><p>如果你正在重新整理一个产品、品牌或工作方式，欢迎写信告诉我你已经知道什么、还缺什么。</p>{{links.primaryPlain}}<div class="contact-person">{{person.avatarTag}}<span>{{person.name}}<small>{{person.location}}</small></span></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© 2026 {{person.name}} / Field Notes</span><span>{{person.socials}}</span><span><a href="mailto:{{person.email}}">{{person.email}}</a></span></footer>
+</body>
+</html>

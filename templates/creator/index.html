@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{site.language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{site.themeColor}}">
+  <meta name="description" content="{{site.description}}">
+  <link rel="canonical" href="{{site.url}}">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="creator-header">
+    <a href="#top" class="logo"><span class="logo-shape">✳</span><span>{{person.name}}<small>slow notes</small></span></a>
+    <nav aria-label="内容导航"><a href="#featured">精选</a><a href="#archive">档案</a><a href="#about">关于</a></nav>
+    <a class="subscribe" href="mailto:{{person.email}}?subject=订阅更新">订阅 ↗</a>
+  </header>
+  <main id="top">
+    <section class="creator-hero">
+      <div class="hero-label"><span>ISSUE 026</span><span>EST. 2024</span></div>
+      <div class="hero-layout"><div class="creator-intro"><p class="eyebrow">{{person.eyebrow}}</p><h1>慢慢写，<br><i>认真活。</i></h1><p>{{person.bio}}</p><div class="hero-actions">{{links.primary}} {{links.secondary}}</div></div><div class="hero-portrait"><div class="sun">{{person.avatarTag}}</div><span class="portrait-note">A PLACE<br>TO PAUSE</span></div></div>
+      <div class="hero-foot"><span>{{person.location}}</span><span>文字 · 声音 · 生活观察</span><span>↓ 向下阅读</span></div>
+    </section>
+
+    <section class="featured-section" id="featured">
+      <div class="section-title"><span class="number">01</span><h2>Featured notes</h2><span class="rule"></span><span class="small-copy">最近写了什么</span></div>
+      <div class="featured-card"><div class="feature-scribble">NOTE<br>OF<br>THE<br>MONTH</div><div class="feature-copy"><span class="post-meta">2026.09 · 工作</span><h3>一个人维护网站，<br><em>先维护什么</em></h3><p>把域名、内容和更新节奏拆成几件不会互相打架的小事，网站才有机会成为长期的工作台。</p>{{links.primaryPlain}}</div><div class="feature-mark">↗</div></div>
+    </section>
+
+    <section class="archive-section" id="archive">
+      <div class="section-title"><span class="number">02</span><h2>All notes</h2><span class="rule"></span><span class="small-copy">按时间排列</span></div>
+      <div class="post-list">{{posts}}</div>
+    </section>
+
+    <section class="about-section" id="about"><div class="about-photo">{{person.avatarTag}}<span>HELLO<br>THERE</span></div><div><p class="eyebrow">A little about the person</p><h2>我喜欢把答案<br>留在问题里。</h2><p class="about-copy">{{person.bio}} 如果你想分享一本书、一段工作经验，或一个正在形成的问题，欢迎写信。</p>{{links.primaryPlain}}<div class="about-socials">{{person.socials}}</div></div></section>
+  </main>
+  <footer class="creator-footer"><span>© 2026 {{person.name}}</span><span>{{availability}}</span><span>{{notice}}</span></footer>
+</body>
+</html>

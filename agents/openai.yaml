@@ -1,0 +1,6 @@
+interface:
+  display_name: "一句话建站"
+  short_description: "从一句话生成、验收并上线个体网站"
+  default_prompt: "使用 $one-sentence-website，把我的一句话需求整理成内容访谈、静态网站，并按已授权范围完成官方平台部署与回读验收。"
+policy:
+  allow_implicit_invocation: true

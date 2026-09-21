@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{site.language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="{{site.themeColor}}">
+  <meta name="description" content="{{site.description}}">
+  <link rel="canonical" href="{{site.url}}">
+  <title>{{site.title}}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <div class="page-shell">
+    <aside class="profile-card">
+      <div class="card-topline"><span>PROFILE / 01</span><span class="dot"></span></div>
+      <div class="avatar">{{person.avatarTag}}</div>
+      <p class="eyebrow">{{person.eyebrow}}</p>
+      <h1>{{person.name}}</h1>
+      <p class="role">{{person.role}}</p>
+      <div class="location"><span>⌖</span>{{person.location}}</div>
+      <div class="card-rule"></div>
+      <p class="card-note">{{notice}}</p>
+      <div class="card-actions">{{links.primary}}</div>
+      <nav class="socials" aria-label="社交链接">{{person.socials}}</nav>
+    </aside>
+
+    <main class="content-column">
+      <header class="top-nav">
+        <span class="wordmark">LC<span>/</span>FIELD NOTES</span>
+        <nav aria-label="页面导航"><a href="#about">关于我</a><a href="#projects">正在做</a><a href="#method">方法</a></nav>
+      </header>
+
+      <section class="intro" id="about">
+        <p class="section-label">HELLO, THIS IS MY CORNER OF THE WEB</p>
+        <h2>让复杂的事，<em>先变得清楚。</em></h2>
+        <p class="lead">{{person.bio}}</p>
+        <div class="intro-actions">{{links.primary}} {{links.secondary}}</div>
+      </section>
+
+      <section class="stats" aria-label="工作概览">{{stats}}</section>
+
+      <section class="section-block" id="projects">
+        <div class="section-heading"><span class="section-label">NOW / MAKING</span><span class="section-index">01—02</span></div>
+        <div class="project-list">{{projects}}</div>
+      </section>
+
+      <section class="method-block" id="method">
+        <div class="section-heading"><span class="section-label">A SMALL METHOD</span><span class="section-index">02—02</span></div>
+        <div class="method-grid"><span class="method-mark">→</span><div><h2>先把问题放到桌面上</h2><p>我会和你一起区分事实、假设与还没被验证的愿望，再用一个小而真实的动作把方向推向现实。</p></div></div>
+      </section>
+
+      <footer class="site-footer"><span>© 2026 {{person.name}}</span><span>{{availability}}</span><span><a href="mailto:{{person.email}}">{{person.email}}</a></span></footer>
+    </main>
+  </div>
+</body>
+</html>
